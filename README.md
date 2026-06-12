@@ -5,11 +5,33 @@
 
 # Ubuntu Server Remote Administration & Samba File Sharing Lab
 
+## 📌 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Key Highlights](#-key-highlights)
+- [Environment & Tools](#-environment--tools)
+- [Project Objectives](#-project-objectives)
+- [Implementation Steps](#-implementation-steps)
+- [Tools & Commands Used](#-tools--commands-used)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Challenges & Solutions](#-challenges--solutions)
+- [Business Value](#-business-value)
+- [What I Learned](#-what-i-learned)
+- [Results](#-results)
+- [Future Improvements](#-future-improvements)
+- [Project Status](#-project-status)
+- [Architecture Diagram](#-architecture-diagram)
+- [Summary](#-summary)
+
+---
+
 ## 📌 Project Overview
 
 This project demonstrates the deployment and configuration of an Ubuntu Server virtual machine using UTM on Apple Silicon (M1), along with secure remote administration from Windows 11 and cross platform file sharing using Samba.
 
 The lab simulates real world IT support tasks including server setup, network troubleshooting, SSH remote access, and SMB file sharing between Linux and Windows systems.
+
+---
 
 ## 🚀 Key Highlights
 
@@ -19,6 +41,8 @@ The lab simulates real world IT support tasks including server setup, network tr
 - Configured Samba for Windows to Linux file sharing
 - Verified successful file transfer between Windows 11 and Ubuntu Server
 - Demonstrated real world IT troubleshooting and system administration workflows
+
+---
 
 ## 🖥️ Environment & Tools
 
@@ -30,6 +54,8 @@ The lab simulates real world IT support tasks including server setup, network tr
 - TCP/IP Networking
 - DNS Services
 
+---
+
 ## 🎯 Project Objectives
 
 - Deploy a Linux server in a virtualized environment
@@ -39,6 +65,8 @@ The lab simulates real world IT support tasks including server setup, network tr
 - Configure Samba file sharing between Windows and Ubuntu
 - Perform basic Linux system administration tasks
 
+---
+
 ## ⚙️ Implementation Steps
 
 ### 1. Ubuntu Server Deployment
@@ -46,7 +74,9 @@ The lab simulates real world IT support tasks including server setup, network tr
 - Installed Ubuntu Server inside UTM virtual machine
 - Configured initial network settings for communication between systems
 
-![Ubuntu Server and Windows 11 Ready](screenshots/Screenshot%202026-06-11%20at%2006.31.51.png)
+![Ubuntu Server and Windows 11 Ready](screenshots/01-ubuntu-server-deployment.png)
+
+---
 
 ### 2. Network & DNS Troubleshooting
 
@@ -64,7 +94,9 @@ ping google.com
 
 Confirmed successful internet and local network access.
 
-![Network Interface IP Address](screenshots/Screenshot%202026-06-11%20at%2006.43.16.png)
+![Network Interface IP Address](screenshots/02-network-ip-address.png)
+
+---
 
 ### 3. SSH Installation & Remote Access
 
@@ -80,7 +112,7 @@ Result:
 active (running)
 ```
 
-![SSH Connection](screenshots/Screenshot%202026-06-11%20at%2006.39.05.png)
+![SSH Service Status](screenshots/03-ssh-service-status.png)
 
 Connected from Windows 11:
 
@@ -96,7 +128,9 @@ Welcome to Ubuntu 24.04 LTS
 
 Successfully established remote administration access.
 
-![SSH Remote Login](screenshots/Screenshot%202026-06-11%20at%2006.36.18.png)
+![SSH Remote Login](screenshots/04-ssh-remote-login.png)
+
+---
 
 ### 4. Linux User Management
 
@@ -107,6 +141,8 @@ ls /home
 ```
 
 Confirmed user accounts and permissions.
+
+---
 
 ### 5. Samba Installation & Configuration
 
@@ -132,9 +168,11 @@ Verified configuration:
 sudo testparm
 ```
 
-![Samba Configuration](screenshots/Screenshot%202026-06-11%20at%2006.41.35.png)
+![Samba Configuration](screenshots/05-samba-configuration.png)
 
-![Samba Service Restart](screenshots/Screenshot%202026-06-11%20at%2008.13.19.png)
+![Samba Service Restart](screenshots/06-samba-service-restart.png)
+
+---
 
 ### 6. Shared Folder Setup
 
@@ -157,7 +195,9 @@ Example output:
 drwxrwxrwx 2 kings29 kings29 4096 Jun 8 09:25 /home/kings29/shared
 ```
 
-![Shared Folder Permissions](screenshots/Screenshot%202026-06-11%20at%2006.45.42.png)
+![Shared Folder Permissions](screenshots/07-shared-folder-permissions.png)
+
+---
 
 ### 7. File Transfer Testing
 
@@ -179,7 +219,9 @@ Result:
 test.txt
 ```
 
-![File Transfer Verified](screenshots/test%20file.png)
+![File Transfer Verified](screenshots/08-file-transfer-verified.png)
+
+---
 
 ### 8. Windows File Access
 
@@ -189,11 +231,11 @@ Accessed Samba share from Windows File Explorer:
 \\192.168.64.5\shared
 ```
 
-![Windows UNC Path Entry](screenshots/Screenshot%202026-06-11%20at%2006.47.33.png)
+![Windows UNC Path Entry](screenshots/09-windows-unc-path.png)
 
-![Windows Samba Authentication](screenshots/Screenshot%202026-06-11%20at%2006.49.22.png)
+![Windows Samba Authentication](screenshots/10-windows-authentication.png)
 
-![Windows Network Navigation](screenshots/Screenshot%202026-06-11%20at%2008.06.23.png)
+![Windows Network Navigation](screenshots/11-windows-network-navigation.png)
 
 Result:
 
@@ -201,7 +243,9 @@ Result:
 - File transfer between Windows and Ubuntu confirmed
 - Samba configuration validated
 
-![Windows Samba Access](screenshots/Screenshot%202026-06-11%20at%2008.43.42.png)
+![Windows Samba Access](screenshots/12-windows-samba-access.png)
+
+---
 
 ## 🛠️ Tools & Commands Used
 
@@ -224,6 +268,8 @@ testparm
 - Samba (SMB)
 - DNS
 - TCP/IP Networking
+
+---
 
 ## 🧠 Skills Demonstrated
 
@@ -248,6 +294,8 @@ testparm
 - Infrastructure Support
 - Service Validation
 - Cross-Platform Support
+
+---
 
 ## 🧩 Challenges & Solutions
 
@@ -301,6 +349,8 @@ Shared files were not appearing.
 - Confirmed permissions
 - Tested file creation and visibility
 
+---
+
 ## 📈 Business Value
 
 This lab demonstrates foundational IT operations skills used in enterprise environments:
@@ -311,7 +361,9 @@ This lab demonstrates foundational IT operations skills used in enterprise envir
 - Infrastructure support
 - User access validation
 - System availability and testing
- 
+
+---
+
 ## 💡 What I Learned
 
 - How SMB/Samba file sharing works in Linux
@@ -319,6 +371,8 @@ This lab demonstrates foundational IT operations skills used in enterprise envir
 - Importance of DNS in network connectivity
 - How to troubleshoot service failures using systemctl
 - Linux file permissions and their impact on network sharing
+
+---
 
 ## ✅ Results
 
@@ -329,18 +383,8 @@ Successfully achieved:
 - File transfer validation across operating systems
 - Resolution of DNS and access control issues
 
- ## 🔄 Future Improvements
+---
 
-Planned enhancements:
-
-- Configure static IP addressing
-- Add SSH key authentication
-- Restrict Samba permissions using groups
-- Configure firewall rules
-- Add automated backup scripts
-- Expand to multi-VM homelab environment
-
- 
 ## 🔄 Future Improvements
 
 Planned enhancements:
@@ -351,7 +395,9 @@ Planned enhancements:
 - Configure firewall rules
 - Add automated backup scripts
 - Expand to multi-VM homelab environment
- 
+
+---
+
 ## 🔎 Verification Commands
 
 ```bash
@@ -361,6 +407,9 @@ testparm
 ip a
 ls -l /home/kings29/shared
 ```
+
+---
+
 ## 📊 Project Status
 
 **Status: COMPLETED ✅**
@@ -376,10 +425,14 @@ Completed:
 - Samba configuration
 - Windows file sharing
 - File transfer validation
- 
+
+---
+
 ## 🏁 Summary
 
 Successfully deployed and configured an Ubuntu Server environment, implemented secure SSH remote administration, resolved network and DNS issues, configured Samba file sharing, and validated file transfer between Windows 11 and Ubuntu Linux systems.
+
+---
 
 ## 🏗️ Architecture Diagram
 
@@ -397,4 +450,3 @@ Successfully deployed and configured an Ubuntu Server environment, implemented s
 | Shared Directory  |
 +-------------------+
 ```
-

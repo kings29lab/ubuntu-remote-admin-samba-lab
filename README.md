@@ -331,6 +331,27 @@ Shared files were not appearing.
 
 ---
 
+
+---
+## 📈 Business Value
+
+This lab demonstrates foundational IT operations skills used in enterprise environments:
+
+- Remote server administration
+- Cross-platform file sharing
+- Incident troubleshooting
+- Infrastructure support
+- User access validation
+- System availability and testing
+- 
+## 💡 What I Learned
+
+- How SMB/Samba file sharing works in Linux
+- How Windows accesses Linux shares via UNC paths
+- Importance of DNS in network connectivity
+- How to troubleshoot service failures using systemctl
+- Linux file permissions and their impact on network sharing
+---
 ## 📊 Project Status
 
 **Status: COMPLETED ✅**
@@ -346,18 +367,7 @@ Completed:
 - Samba configuration
 - Windows file sharing
 - File transfer validation
-
----
-
-## 💡 What I Learned
-
-- How SMB/Samba file sharing works in Linux
-- How Windows accesses Linux shares via UNC paths
-- Importance of DNS in network connectivity
-- How to troubleshoot service failures using systemctl
-- Linux file permissions and their impact on network sharing
----
-
+- 
 ## 🏁 Summary
 
 Successfully deployed and configured an Ubuntu Server environment, implemented secure SSH remote administration, resolved network and DNS issues, configured Samba file sharing, and validated file transfer between Windows 11 and Ubuntu Linux systems.

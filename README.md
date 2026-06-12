@@ -97,6 +97,7 @@ Welcome to Ubuntu 24.04 LTS
 
 Successfully established remote administration access.
 
+![SSH Connection](screenshots/Screenshot%202026-06-11%20at%2006.39.05.png)
 ---
 
 ### 4. Linux User Management
@@ -195,7 +196,7 @@ Result:
 - Shared folder opened successfully
 - File transfer between Windows and Ubuntu confirmed
 - Samba configuration validated
-
+ ![Windows Samba Access](screenshots/Screenshot%202026-06-11%20at%2008.43.42.png)
 ---
 
 ## 🛠️ Tools & Commands Used

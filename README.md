@@ -1,4 +1,4 @@
-![Status](https://img.shields.io/badge/Status-Completed-success)
+!![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
 ![Windows](https://img.shields.io/badge/Windows-11-blue)
 ![Protocol](https://img.shields.io/badge/Protocol-Samba-green)
@@ -11,6 +11,7 @@
 - [Key Highlights](#-key-highlights)
 - [Environment & Tools](#-environment--tools)
 - [Project Objectives](#-project-objectives)
+- [Prerequisites](#-prerequisites)
 - [Implementation Steps](#-implementation-steps)
 - [Tools & Commands Used](#-tools--commands-used)
 - [Skills Demonstrated](#-skills-demonstrated)
@@ -64,6 +65,20 @@ The lab simulates real world IT support tasks including server setup, network tr
 - Enable secure remote administration via SSH
 - Configure Samba file sharing between Windows and Ubuntu
 - Perform basic Linux system administration tasks
+
+---
+
+## 🛠️ Prerequisites
+
+Before starting this lab, ensure you have the following:
+
+- **Mac with Apple Silicon (M1/M2/M3)** — required for UTM ARM64 virtualization
+- **UTM** — free virtualization app for macOS, download at https://mac.getutm.app
+- **Ubuntu Server 24.04 LTS (ARM64)** — download ISO at https://ubuntu.com/download/server/arm
+- **Windows 11 Pro** — running on the same Mac host or as a second UTM VM
+- **Minimum 8GB RAM** on host machine (4GB allocated to Ubuntu VM)
+- **Minimum 80GB free storage** on host machine
+- **Internet connection** for package installation
 
 ---
 

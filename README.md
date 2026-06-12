@@ -1,3 +1,8 @@
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
+![Windows](https://img.shields.io/badge/Windows-11-blue)
+![Protocol](https://img.shields.io/badge/Protocol-Samba-green)
+
 # Ubuntu Server Remote Administration & Samba File Sharing Lab
 
 ## 📌 Project Overview

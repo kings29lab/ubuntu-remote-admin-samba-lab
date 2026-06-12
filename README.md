@@ -48,7 +48,7 @@ The lab simulates real world IT support tasks including server setup, network tr
 
 - Installed Ubuntu Server inside UTM virtual machine
 - Configured initial network settings for communication between systems
-
+![Ubuntu Server and Windows 11 Ready](screenshots/Screenshot%202026-06-11%20at%2006.31.51.png)
 ---
 
 ### 2. Network & DNS Troubleshooting
@@ -63,6 +63,7 @@ Verified connectivity using:
 
 ```bash
 ping google.com
+![Network Interface IP Address](screenshots/Screenshot%202026-06-11%20at%2006.43.16.png)
 ```
 
 Confirmed successful internet and local network access.
@@ -99,7 +100,7 @@ Successfully established remote administration access.
 
 ![SSH Connection](screenshots/Screenshot%202026-06-11%20at%2006.39.05.png)
 ---
-
+![SSH Remote Login](screenshots/Screenshot%202026-06-11%20at%2006.36.18.png)
 ### 4. Linux User Management
 
 Verified user directories:
@@ -129,7 +130,7 @@ Restarted Samba service:
 ```bash
 sudo systemctl restart smbd
 ```
-
+![Samba Service Restart](screenshots/Screenshot%202026-06-11%20at%2008.13.19.png)
 Verified configuration:
 
 ```bash
@@ -158,7 +159,7 @@ Example output:
 ```text
 drwxrwxrwx 2 kings29 kings29 4096 Jun 8 09:25 /home/kings29/shared
 ```
-
+![Shared Folder Permissions](screenshots/Screenshot%202026-06-11%20at%2006.45.42.png)
 ---
 
 ### 7. File Transfer Testing
@@ -180,7 +181,7 @@ Result:
 ```text
 test.txt
 ```
-
+![File Transfer Verified](screenshots/test%20file.png)
 ---
 
 ### 8. Windows File Access
@@ -196,6 +197,9 @@ Result:
 - Shared folder opened successfully
 - File transfer between Windows and Ubuntu confirmed
 - Samba configuration validated
+- ![Windows UNC Path Entry](screenshots/Screenshot%202026-06-11%20at%2006.47.33.png)
+- ![Windows Network Navigation](screenshots/Screenshot%202026-06-11%20at%2008.06.23.png)
+- ![Windows Samba Authentication](screenshots/Screenshot%202026-06-11%20at%2006.49.22.png)
  ![Windows Samba Access](screenshots/Screenshot%202026-06-11%20at%2008.43.42.png)
 ---
 

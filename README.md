@@ -62,8 +62,8 @@ Temporary failure in name resolution
 Verified connectivity using:
 
 ```bash
-ping google.com
-![Network Interface IP Address](screenshots/Screenshot%202026-06-11%20at%2006.43.16.png)
+ping google.com!
+[Network Interface IP Address](screenshots/Screenshot%202026-06-11%20at%2006.43.16.png)
 ```
 
 Confirmed successful internet and local network access.
